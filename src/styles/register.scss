@@ -1,0 +1,38 @@
+.register {
+  width: 100%;
+  padding: 20px;
+
+  &__form {
+
+  }
+
+  &__email {
+    border: 1px solid #DDD;
+    width: 100%;
+    padding: 10px;
+  }
+
+  &__password {
+    border: 1px solid #DDD;
+    width: 100%;
+    padding: 10px;
+  }
+
+  &__submit {
+    width: 100%;
+    padding: 15px;
+    background: #EEE;
+    border: 1px solid #DDD;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  input {
+    margin: 10px 0;
+    display: block;
+  }
+
+  label {
+
+  }
+}

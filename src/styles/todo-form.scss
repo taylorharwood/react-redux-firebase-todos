@@ -1,0 +1,54 @@
+.todo-form {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,.25);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,.25);
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,.25);
+
+  background: #EFEFEF;
+  padding: 20px;
+  width: 100%;
+  order: 1;
+
+  @media only screen and (min-width: 768px) {
+        
+  }      
+
+  &__header {
+    display: block;
+    font-weight: 300;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    border: 1px solid #d3d3d3;
+    color: #3d3d3d;
+    font-size: 14px;
+    width: 30%;
+    padding: 10px;
+  }
+
+  &__body {
+    border: 1px solid #d3d3d3;
+    color: #3d3d3d;
+    font-size: 14px;
+    width: 48%;
+    padding: 10px;
+  }
+
+  &__submit {
+    cursor: pointer;
+    background: #3d3d3d;
+    width: 100px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 200;
+    border: none;
+    padding: 11px;
+  }
+}

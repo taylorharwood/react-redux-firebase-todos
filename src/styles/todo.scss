@@ -1,0 +1,48 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 20px;
+  background: #FFF;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #DDD;
+  border-left: 3px solid #D75D43;
+  margin: 5px 0;
+
+  &--done {
+    border-left: 3px solid #01C865;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+  }
+
+  &__title {
+    margin: 5px 5px 5px 15px;
+    color: #3d3d3d;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  &__body {
+    margin: 0 5px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #888;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  &__delete {
+    cursor: pointer;
+    &:before {
+      font-size: 30px;    
+    }
+  }
+}
